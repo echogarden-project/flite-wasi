@@ -1,0 +1,23 @@
+{
+  "name": "@echogarden/flite-wasi",
+  "version": "0.1.1",
+  "description": "Flite speech synthesizer, compiled to WASI. Intended for use with Echogarden.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "flite.wasm",
+  "files": [
+    "flite.wasm",
+    "COPYING",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Echogarden project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echogarden-project/flite-wasi"
+  },
+  "license": "BSD-4-Clause"
+}
